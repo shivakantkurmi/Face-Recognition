@@ -9,3 +9,5 @@ This project is a face recognition application built using Python. It allows use
 - Add new faces to the dataset for future recognition
 - Edit model configurations for improved accuracy
 - Store the dataset locally for future use
+
+## before cloning it connect with your mysql
