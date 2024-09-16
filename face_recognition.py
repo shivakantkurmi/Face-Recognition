@@ -8,10 +8,10 @@ from time import strftime
 from datetime import datetime
 import cv2
 import csv
-host = "127.0.0.1"
-username = "root"
-password = "250805"
-database = "face_recognition_system"
+host = "127.0.0"  #change with you mysql details 
+username = "root"   #change with you mysql details
+password = "25"      #change with you mysql details
+database = "face_recognition_system"     #change with you mysql details
 
 import os
 import numpy as np
@@ -22,25 +22,6 @@ import csv
 import mysql.connector
 from datetime import datetime
 import os
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
