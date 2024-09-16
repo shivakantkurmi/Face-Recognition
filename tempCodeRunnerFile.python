@@ -1,0 +1,32 @@
+import mysql.connector
+
+# Define connection parameters
+host = "127.0.0.1"
+username = "root"
+password = "250805"
+database = "face_recognition_system"
+
+# Attempt to establish a connection
+try:
+    # Connect to MySQL server
+    conn = mysql.connector.connect(
+        host=host,
+        user=username,
+        password=password,
+        database=database,
+        auth_plugin='mysql_native_password'
+    )
+
+    # If the connection is successful, print the connection parameters
+    print("Connection successful!")
+    print("Host:", host)
+    print("Username:", username)
+    print("Password:", password)
+    print("Database:", database)
+
+    # Close the connection
+    conn.close()
+
+except mysql.connector.Error as e:
+    # If an error occurs during connection, print the error message
+    print("Error:", e)
