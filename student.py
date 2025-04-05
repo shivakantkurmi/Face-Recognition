@@ -5,9 +5,9 @@ from tkinter import messagebox
 import mysql.connector
 import cv2
 import os
-host = "127.1"   #change with you mysql details
+host = "1275.1"   #change with you mysql details
 username = "root"    #change with you mysql details
-password = "2505"    #change with you mysql details
+password = "2555"    #change with you mysql details
 database = "face_recognition_system"    #change with you mysql details
 
 
