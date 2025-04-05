@@ -35,7 +35,7 @@ A complete **Python + MySQL** based attendance system that uses **real-time faci
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Facial-Recognition-Attendance.git
+git clone https://github.com/shivakantkurmi/Face-Recognition.git
 cd Facial-Recognition-Attendance
 ```
 
