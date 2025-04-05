@@ -10,7 +10,7 @@ import cv2
 import csv
 host = "127.0.0"  #change with you mysql details 
 username = "root"   #change with you mysql details
-password = "25"      #change with you mysql details
+password = "25555"      #change with you mysql details
 database = "face_recognition_system"     #change with you mysql details
 
 import os
